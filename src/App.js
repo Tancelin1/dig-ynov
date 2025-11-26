@@ -1,33 +1,25 @@
-import './App.css';
+import "./App.css";
+import FooterLogos from "./components/FooterLogos";
+import ImagesSection from "./components/ImagesSection";
+import ContactSection from "./components/ContactSection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
 
-        <a
-          href="https://www.linkedin.com/company/jumeauxnum%C3%A9rique/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img 
-            src="/logo-linkedin.png" 
-            alt="logo linkedin" 
-            style={{ width: '50px' }} 
-          />
-        </a>
-         <a
-          href="https://www.ynov.com/campus/lille"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img 
-            src="/logo-ynov.png" 
-            alt="logo ynov" 
-            style={{ width: '50px' }} 
-          />
-        </a>
+      <header className="hero-section">
+        <h1>Bienvenue chez DigYnov</h1>
+        <p>
+          Vous découvrirez ici notre travail, notre partenaria avec ynov lille.
+        </p>
       </header>
+
+      <ContactSection />
+
+      <ImagesSection />
+
+      <FooterLogos />
+
     </div>
   );
 }
