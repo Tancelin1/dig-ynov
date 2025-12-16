@@ -2,6 +2,7 @@ import "./App.css";
 import FooterLogos from "./components/FooterLogos";
 import ImagesSection from "./components/ImagesSection";
 import ContactSection from "./components/ContactSection";
+import TeamSection from "./components/TeamSection";
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
           Vous découvrirez ici notre travail, notre partenaria avec ynov lille.
         </p>
       </header>
+{/* importée le composant équipe */}
+      <TeamSection />
+      
+      <ImagesSection />
 
       <ContactSection />
-
-      <ImagesSection />
 
       <FooterLogos />
 
