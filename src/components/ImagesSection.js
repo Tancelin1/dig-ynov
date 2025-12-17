@@ -1,3 +1,5 @@
+import '../assets/ImagesSection.css';
+
 function ImagesSection() {
   return (
     <section>
@@ -5,12 +7,12 @@ function ImagesSection() {
 <div className="images-wrapper">
       <div className="left-col">
         <div className="top-row">
-          <img src="/img1.jpg" alt="img1" className="img-half" />
-          <img src="/img2.jpg" alt="img2" className="img-half" />
+          <img src="/ynov-croix.png" alt="ynov-croix" className="img-half" />
+          <img src="/ynov-croix-exterieur.png" alt="ynov-croix-exterieur" className="img-half" />
         </div>
 
         <div className="centered-bottom">
-          <img src="/img3.jpg" alt="img3" className="img-bottom" />
+          <img src="/plan-teia.png" alt="plan-teia" className="img-bottom" />
         </div>
       </div>
       <div className="right-col">
