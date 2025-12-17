@@ -30,7 +30,7 @@
 
 .section-title {
     font-size: 1.1rem;
-    color: #87CEEB;
+    color: #fee4f6;
     font-weight: 500;
     margin-bottom: 20px;
     text-align: center;
@@ -98,4 +98,8 @@
         width: 100%;
         max-width: 300px;
     }
+}
+
+.team-container {
+    background-color: #92c7bf;
 }

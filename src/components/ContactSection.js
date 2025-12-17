@@ -4,7 +4,6 @@ function ContactSection() {
       <h2>Contact</h2>
 
       <form className="contact-form">
-        <input type="text" placeholder="Votre nom" />
         <input type="email" placeholder="Votre email" />
         <textarea placeholder="Votre message"></textarea>
 
