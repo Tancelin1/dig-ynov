@@ -1,6 +1,7 @@
 .team-container {
     padding: 40px 20px;
     text-align: center;
+    background-color: #92c7bf;
 }
 
 .team-container h1 {
@@ -23,7 +24,6 @@
     align-items: center;
 }
 
-/* Centrer la dernière section sur toute la largeur */
 .team-section:last-child {
     grid-column: 1 / -1;
 }
@@ -35,11 +35,17 @@
     margin-bottom: 20px;
     text-align: center;
     letter-spacing: 0.5px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-pair {
     display: flex;
     gap: 30px;
+    width: 100%;
+    justify-content: center;
 }
 
 .team-card {
@@ -50,6 +56,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
 }
 
 .team-card:hover {
@@ -62,12 +71,14 @@
     height: 200px;
     object-fit: cover;
     display: block;
+    flex-shrink: 0;
 }
 
 .team-card h3 {
     font-size: 1.2rem;
     margin: 15px 15px 5px;
     color: #333;
+    flex-shrink: 0;
 }
 
 .team-card p {
@@ -75,6 +86,9 @@
     color: #666;
     margin: 0 15px 20px;
     line-height: 1.4;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
 }
 
 @media (max-width: 1200px) {
@@ -92,14 +106,12 @@
     .team-pair {
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
     
     .team-card {
         width: 100%;
         max-width: 300px;
+        height: 320px;
     }
-}
-
-.team-container {
-    background-color: #92c7bf;
 }

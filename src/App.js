@@ -8,7 +8,10 @@ function App() {
   return (
     <div className="App">
   <div className="separation">
-      <header className="hero-section">
+     <header 
+    className="hero-section"
+    style={{backgroundImage: 'url(/plan-teia.png)'}}
+  >
       
         {/* <div className=""> */}
         <h1>Bienvenue chez DigYnov</h1>
