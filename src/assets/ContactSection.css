@@ -1,0 +1,24 @@
+.contact-section {
+    h2{
+        margin-top : 0px;
+    }
+    background-color: #e1d2bd;
+}
+
+.contact-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.email-link {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #92c7bf;
+  text-decoration: underline;
+}
