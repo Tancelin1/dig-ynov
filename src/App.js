@@ -13,16 +13,17 @@ function App() {
         <p>
           Vous découvrirez ici notre travail, notre partenaria avec ynov lille.
         </p>
+        <img src="/logo.png" alt="DigYnov" className="header-logo" />
       </header>
-{/* importée le composant équipe */}
       <TeamSection />
-      
+
       <ImagesSection />
 
       <ContactSection />
-
-      <FooterLogos />
-
+      <div className="padding-footer">
+<FooterLogos />
+      </div>
+      
     </div>
   );
 }
