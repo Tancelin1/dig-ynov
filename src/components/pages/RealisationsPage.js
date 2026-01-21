@@ -37,7 +37,7 @@ function RealisationsPage() {
             <li>Surface modélisée : 5 000 m²</li>
             <li>Nombre d'équipements inventoriés : 500+</li>
             <li>Durée du projet : 6 mois</li>
-            <li>Technologies : BIM, TEIA, React</li>
+            <li>Technologies : BIM, TEIA</li>
           </ul>
         </div>
       </section>
