@@ -1,3 +1,5 @@
+import '../assets/FooterSection.css';
+
 function FooterLogos() {
   const currentYear = new Date().getFullYear();
 

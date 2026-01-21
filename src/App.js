@@ -1,41 +1,35 @@
+
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navigation from './components/Navigation';
 import FooterLogos from "./components/FooterLogos";
-import ImagesSection from "./components/ImagesSection";
-import ContactSection from "./components/ContactSection";
-import TeamSection from "./components/TeamSection";
+import HomePage from './components/pages/HomePage';
+import ServicesPage from './components/pages/ServicesPage';
+import RealisationsPage from './components/pages/RealisationsPage';
+import TeamPage from './components/pages/TeamPage';
+import AboutPage from './components/pages/AboutPage';
+import ContactPage from './components/pages/ContactPage';
 
 function App() {
   return (
-    <div className="App">
-  <div className="separation">
-     <header 
-    className="hero-section"
-    style={{backgroundImage: 'url(/plan-teia.png)'}}
-  >
-      
-        {/* <div className=""> */}
-        <h1>Bienvenue chez DigYnov</h1>
-        <img src="/logo.png" alt="DigYnov" className="header-logo" />
-        {/* </div> */}
-        <p>
-          Vous découvrirez ici notre travail, notre partenaria avec ynov lille.
-        </p>
-      </header>
+    <Router>
+      <div className="App">
+        <Navigation />
+        
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/realisations" element={<RealisationsPage />} />
+          <Route path="/equipe" element={<TeamPage />} />
+          <Route path="/a-propos" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+
+        <div className="padding-footer">
+          <FooterLogos />
         </div>
-      <div className="separation">
-      <TeamSection />
       </div>
-<div className="separation">
-      <ImagesSection />
-      </div>
-<div className="separation">
-      <ContactSection />
-      </div>
-      <div className="padding-footer">
-<FooterLogos />
-      </div>
-      
-    </div>
+    </Router>
   );
 }
 
