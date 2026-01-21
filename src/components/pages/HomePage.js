@@ -51,14 +51,6 @@ function HomePage() {
           </div>
 
           <div className="info-card">
-            <h3>💻 Développement</h3>
-            <p>
-              Création d'interfaces web et développement de fonctionnalités 
-              personnalisées pour répondre à vos besoins spécifiques.
-            </p>
-          </div>
-
-          <div className="info-card">
             <h3>🔄 Hyperviseur TEIA</h3>
             <p>
               Gestion centralisée de vos jumeaux numériques avec intégration 

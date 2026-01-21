@@ -13,7 +13,6 @@ function Navigation() {
       <div className="nav-content">
         <Link to="/" className="nav-logo">
           <img src="/logo.png" alt="DigYnov" />
-          <span>DigYnov</span>
         </Link>
 
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>

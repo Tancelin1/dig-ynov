@@ -46,21 +46,6 @@ function ServicesPage() {
           </div>
 
           <div className="info-card">
-            <h3>Développement Web & API</h3>
-            <p>
-              Conception et développement d'interfaces web sur mesure pour visualiser 
-              et interagir avec vos jumeaux numériques. Intégration d'API pour 
-              connecter vos systèmes existants.
-            </p>
-            <ul>
-              <li>Plateformes web personnalisées</li>
-              <li>Développement d'API REST</li>
-              <li>Tableaux de bord interactifs</li>
-              <li>Applications mobiles</li>
-            </ul>
-          </div>
-
-          <div className="info-card">
             <h3>Intégration TEIA Suite</h3>
             <p>
               Mise en place et configuration de la solution TEIA pour la gestion 

@@ -79,6 +79,18 @@ function AboutPage() {
             </div>
           </div>
         </div>
+          <div className="info-card" style={{maxWidth: '600px', margin: '2rem auto'}}>
+            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap'}}>
+              <img src="/stereograph.png" alt="stereographe-logo" style={{height: '80px'}} />
+              <div style={{textAlign: 'left'}}>
+                <h3>Stereograph</h3>
+                <p>
+                    Stereograph nous soutient en fournissant des services de scan 3D 
+                    et de modélisation pour nos projets de jumeaux numériques.
+                </p>
+              </div>
+            </div>
+          </div>
       </section>
     </>
   );
