@@ -10,8 +10,11 @@ function HomePage() {
           className="hero-section"
           style={{backgroundImage: 'url(/plan-teia.png)'}}
         >
-          <h1>Leader du Jumeau Numérique pour l'Enseignement</h1>
-          <img src="/logo.png" alt="DigYnov" className="header-logo" />
+          <div className="header-title">
+            <h1>Leader du Jumeau Numérique pour l'Enseignement</h1>
+            <img src="/logo.png" alt="DigYnov" className="header-logo" />
+          </div>
+
           <p>
             Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser 
             la gestion, l'exploitation et la valorisation de vos actifs éducatifs.

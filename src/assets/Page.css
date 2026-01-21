@@ -26,7 +26,26 @@
   line-height: 1.6;
 }
 
-/* Cards Grid */
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+.header-title h1 {
+  margin: 0;
+}
+
+.header-logo {
+  display: none;
+}
+
+@media (min-width: 1355px) {
+  .header-logo {
+    margin-left : 20px;
+    display: block;
+  }
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -35,6 +54,9 @@
 }
 
 .info-card {
+    h3{
+        text-align: center;
+    }
   background: white;
   border-radius: 12px;
   padding: 2rem;
@@ -125,7 +147,6 @@
   margin-top: 2rem;
 }
 
-/* Gallery */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -152,7 +173,6 @@
   transform: scale(1.1);
 }
 
-/* Contact Info Cards */
 .contact-info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -189,7 +209,6 @@
   text-decoration: underline;
 }
 
-/* Form */
 .contact-form-container {
   max-width: 600px;
   margin: 3rem auto;
@@ -232,7 +251,6 @@
   resize: vertical;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .page-section {
     padding: 60px 20px;
