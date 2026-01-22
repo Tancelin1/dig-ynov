@@ -31,7 +31,7 @@ function ContactPage() {
         </header>
       </div>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <div className="contact-info-grid">
           <div className="contact-info-card">
             <h3>

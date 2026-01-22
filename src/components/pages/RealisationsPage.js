@@ -15,7 +15,7 @@ function RealisationsPage() {
         </header>
       </div>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <h2 className="section-title">Campus Ynov Lille</h2>
         <p className="section-subtitle">
           Notre première réalisation majeure : le jumeau numérique complet du campus Ynov à Croix

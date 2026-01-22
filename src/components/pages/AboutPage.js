@@ -14,7 +14,7 @@ function AboutPage() {
         </header>
       </div>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <h2 className="section-title">Notre Mission</h2>
         <p className="section-subtitle">
           Démocratiser l'accès aux jumeaux numériques pour les établissements d'enseignement

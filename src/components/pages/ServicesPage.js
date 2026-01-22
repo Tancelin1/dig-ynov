@@ -14,7 +14,7 @@ function ServicesPage() {
         </header>
       </div>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <div className="cards-grid">
           <div className="info-card">
             <h3>Modélisation 3D & BIM</h3>

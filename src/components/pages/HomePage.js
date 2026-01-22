@@ -63,7 +63,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <h2 className="section-title">Pourquoi Choisir DigYnov ?</h2>
         
         <div className="cards-grid">

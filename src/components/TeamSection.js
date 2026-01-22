@@ -74,7 +74,7 @@ export default function TeamSection() {
     ];
 
     return (
-        <div className="team-container">
+        <div className="team-container no-padding-bottom">
             <h1>Notre Équipe</h1>
             <div className="team-sections">
                 {teamData.map((section, sectionIndex) => (

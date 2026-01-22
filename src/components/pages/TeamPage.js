@@ -15,7 +15,7 @@ function TeamPage() {
         </header>
       </div>
 
-      <div className="separation">
+      <div className="separation no-margin-bottom">
         <TeamSection />
       </div>
     </>
