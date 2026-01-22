@@ -20,7 +20,7 @@ function HomePage() {
             la gestion, l'exploitation et la valorisation de vos actifs éducatifs.
           </p>
           <div className="cta-buttons">
-            <Link to="/contact" className="btn btn-primary">
+            <Link to="contact/" className="btn btn-primary">
               Démarrer un projet →
             </Link>
             <Link to="/realisations" className="btn btn-secondary">

@@ -38,6 +38,9 @@
   bottom: 0;
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
 }
+.hero-section::before {
+  pointer-events: none;
+}
 
 .hero-section h1,
 .hero-section p,
