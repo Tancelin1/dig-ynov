@@ -1,6 +1,6 @@
 {
   "name": "dig-ynov",
-  "version": "0.1.0",
+  "version": "0.8",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
