@@ -166,17 +166,20 @@
 }
 
 .cta-buttons {
+  {
+    color : #e0e7c3 !important;
+  }
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-.gallery-grid {
+/* .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 3rem;
-}
+} */
 
 .gallery-item {
   position: relative;

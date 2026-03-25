@@ -6,7 +6,7 @@ function ServicesPage() {
     <>
       <div className="separation">
         <header 
-          className="hero-section"
+          className="hero-section hero-section small"
           style={{backgroundImage: 'url(/plan-teia.png)', minHeight: '300px'}}
         >
           <h1>Nos Services</h1>

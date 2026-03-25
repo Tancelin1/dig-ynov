@@ -13,7 +13,7 @@
   padding-bottom: 80px;
 }
 
-/* Hero Section */
+
 .hero-section {
   background-size: cover;
   background-position: center;
@@ -29,6 +29,9 @@
   position: relative;
 }
 
+.hero-section-small {
+  min-height : 50px !important;
+}
 .hero-section::before {
   content: '';
   position: absolute;

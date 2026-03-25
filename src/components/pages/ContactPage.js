@@ -72,7 +72,7 @@ function ContactPage() {
 
         <div className="contact-form-container">
           <h2 style={{ marginBottom: "1.5rem", textAlign: "center" }}>
-            Envoyez-nous un message
+            Vous avez un projet, envie de nous rejoindre ? contactez-nous 
           </h2>
 
           <form onSubmit={handleSubmit}>
