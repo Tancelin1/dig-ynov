@@ -15,10 +15,15 @@
 
 
 .hero-section {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 500px;
+background: linear-gradient(
+    135deg,
+    #2aa198,
+    #1f5f6b,
+    #1f3c5b,
+    #1f3c5b,
+    #1f5f6b,
+    #2aa198
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +44,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
 }
 .hero-section::before {
   pointer-events: none;
@@ -71,7 +75,7 @@
   margin: 20px 0;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .hero-section h1 {
     font-size: 2rem;

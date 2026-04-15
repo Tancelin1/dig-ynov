@@ -27,7 +27,6 @@ function ContactPage() {
       <div className="separation">
         <header
           className="hero-section"
-          style={{ backgroundImage: "url(/plan-teia.png)", minHeight: "300px" }}
         >
           <h1>Contactez-nous</h1>
           <p>Une question ? Un projet ? N'hésitez pas à nous contacter</p>
@@ -36,13 +35,6 @@ function ContactPage() {
 
       <section className="page-section no-padding-bottom">
         <div className="contact-info-grid">
-          <div className="contact-info-card">
-            <h3>
-              <span style={{ fontSize: "24px" }}>📧</span>
-              Email
-            </h3>
-            <a href="mailto:digynov@gmail.com">digynov@gmail.com</a>
-          </div>
 
           <div className="contact-info-card">
             <h3>

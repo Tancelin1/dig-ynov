@@ -7,7 +7,6 @@ function AboutPage() {
       <div className="separation">
         <header 
           className="hero-section"
-          style={{backgroundImage: 'url(/plan-teia.png)', minHeight: '300px'}}
         >
           <h1>À Propos de DigYnov</h1>
           <p>Notre histoire, notre mission, notre vision</p>

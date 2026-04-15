@@ -83,7 +83,7 @@
     h3{
         text-align: center;
     }
-  background: white;
+  background-color: #9ec9c0 !important;
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -145,41 +145,24 @@
 }
 
 .btn-primary {
+  margin-top : 1rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
 
 .btn-primary:hover {
+  margin-top : 2rem;
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
 }
 
-.btn-secondary {
-  background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
-}
-
-.btn-secondary:hover {
-  background: #667eea;
-  color: white;
-}
-
 .cta-buttons {
-  {
-    color : #e0e7c3 !important;
-  }
+  
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-/* .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 3rem;
-} */
 
 .gallery-item {
   position: relative;

@@ -8,7 +8,6 @@ function RealisationsPage() {
       <div className="separation">
         <header 
           className="hero-section"
-          style={{backgroundImage: 'url(/plan-teia.png)', minHeight: '300px'}}
         >
           <h1>Nos Réalisations</h1>
           <p>Découvrez nos projets de jumeaux numériques</p>

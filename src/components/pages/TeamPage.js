@@ -8,7 +8,6 @@ function TeamPage() {
       <div className="separation">
         <header 
           className="hero-section"
-          style={{backgroundImage: 'url(/plan-teia.png)', minHeight: '300px'}}
         >
           <h1>Notre Équipe</h1>
           <p>Des talents passionnés au service de vos projets</p>
