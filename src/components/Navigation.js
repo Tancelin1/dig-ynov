@@ -20,7 +20,7 @@ function Navigation() {
     >
       <div className="nav-content">
         <Link to="/" className="nav-logo">
-          <img src="/logo.png" alt="DigYnov" />
+          <img src="/logo-digynov-blanc.png" alt="DigYnov" />
         </Link>
 
         {/* MENU */}

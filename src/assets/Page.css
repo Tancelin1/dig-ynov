@@ -42,17 +42,6 @@
   margin: 0;
 }
 
-.header-logo {
-  display: none;
-}
-
-@media (min-width: 1355px) {
-  .header-logo {
-    margin-left : 20px;
-    display: block;
-  }
-}
-
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -83,7 +72,7 @@
     h3{
         text-align: center;
     }
-  background-color: #9ec9c0 !important;
+  background-color: 9EC9C0 !important;
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -97,7 +86,7 @@
 }
 
 .info-card h3 {
-  color: #2563eb;
+  color: #CEF8FA;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -125,7 +114,7 @@
   content: '✓';
   position: absolute;
   left: 0;
-  color: #2563eb;
+  color: #CEF8FA;
   font-weight: bold;
 }
 
@@ -208,7 +197,7 @@
 }
 
 .contact-info-card a {
-  color: #2563eb;
+  color: #CEF8FA;
   text-decoration: none;
   font-size: 1.1rem;
   transition: color 0.3s;
@@ -253,7 +242,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #2563eb;
+  border-color: #CEF8FA;
 }
 
 .form-group textarea {

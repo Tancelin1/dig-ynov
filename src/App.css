@@ -69,12 +69,6 @@ background: linear-gradient(
   line-height: 1.6;
 }
 
-.header-logo {
-  width: 120px;
-  height: auto;
-  margin: 20px 0;
-}
-
 
 @media (max-width: 768px) {
   .hero-section h1 {
@@ -83,9 +77,5 @@ background: linear-gradient(
 
   .hero-section p {
     font-size: 1.1rem;
-  }
-
-  .header-logo {
-    width: 90px;
   }
 }

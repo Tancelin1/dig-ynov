@@ -21,16 +21,7 @@ function FooterLogos() {
         >
           <img src="/logo-linkedin.png" alt="LinkedIn" className="footer-logo" />
         </a>
-
-        <a
-          href="https://www.ynov.com/campus/lille"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/logo-ynov.png" alt="Ynov" className="footer-logo" />
-        </a>
       </div>
-
     </footer>
   );
 }
