@@ -16,11 +16,6 @@ function HomePage() {
         <header className="hero-section">
           <div className="header-title">
             <h1>{heroData.title}</h1>
-            <img
-              src={heroData.logo}
-              alt="DigYnov"
-              className="header-logo"
-            />
           </div>
 
           <p>{heroData.description}</p>

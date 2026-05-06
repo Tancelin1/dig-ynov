@@ -2,7 +2,6 @@ export const heroData = {
   title: "Leader du Jumeau Numérique pour l'Enseignement",
   description:
     "Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser la gestion, l'exploitation et la valorisation de vos actifs éducatifs.",
-  logo: "/logo.png",
   cta: [
     { id: 1, label: "Démarrer un projet →", to: "contact/", primary: true },
     { id: 2, label: "Voir nos réalisations", to: "/realisations", primary: false },
