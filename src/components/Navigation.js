@@ -27,11 +27,10 @@ function Navigation() {
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
   <li>
     <a
-      href="https://rule34.xxx/index.php?page=post&s=list"
-      target="_blank"
+      href="/"
       rel="noopener noreferrer"
       className={
-        isActive('https://rule34.xxx/index.php?page=post&s=list')
+        isActive('/')
           ? 'active'
           : ''
       }
