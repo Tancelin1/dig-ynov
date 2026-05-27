@@ -15,10 +15,7 @@ function ImagesSection() {
           <img src="/plan-teia.png" alt="plan-teia" className="img-bottom" />
         </div>
       </div>
-      <div className="right-col">
-        <img src="carte-france.jpg" alt="img5" className="img-big" />
       </div>
-</div>
     </section>
   );
 }

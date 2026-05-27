@@ -6,15 +6,14 @@ function ServicesPage() {
     <>
       <div className="separation">
         <header 
-          className="hero-section"
-          style={{backgroundImage: 'url(/plan-teia.png)', minHeight: '300px'}}
+          className="hero-section hero-section small"
         >
           <h1>Nos Services</h1>
           <p>Des solutions complètes pour vos projets de jumeaux numériques</p>
         </header>
       </div>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <div className="cards-grid">
           <div className="info-card">
             <h3>Modélisation 3D & BIM</h3>
@@ -46,7 +45,7 @@ function ServicesPage() {
           </div>
 
           <div className="info-card">
-            <h3>Intégration TEIA Suite</h3>
+            <h3>Intégrateur jumeau numérique suite</h3>
             <p>
               Mise en place et configuration de la solution TEIA pour la gestion 
               centralisée de vos actifs numériques avec supervision en temps réel.

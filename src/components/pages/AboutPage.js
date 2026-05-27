@@ -7,14 +7,13 @@ function AboutPage() {
       <div className="separation">
         <header 
           className="hero-section"
-          style={{backgroundImage: 'url(/plan-teia.png)', minHeight: '300px'}}
         >
           <h1>À Propos de DigYnov</h1>
           <p>Notre histoire, notre mission, notre vision</p>
         </header>
       </div>
 
-      <section className="page-section">
+      <section className="page-section no-padding-bottom">
         <h2 className="section-title">Notre Mission</h2>
         <p className="section-subtitle">
           Démocratiser l'accès aux jumeaux numériques pour les établissements d'enseignement
@@ -65,7 +64,7 @@ function AboutPage() {
         </div>
 
         <div style={{marginTop: '4rem', textAlign: 'center'}}>
-          <h2 className="section-title">Notre Partenaire</h2>
+          <h2 className="section-title">Notre partenaires</h2>
           <div className="info-card" style={{maxWidth: '600px', margin: '2rem auto'}}>
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap'}}>
               <img src="/logo-ynov.png" alt="Ynov Campus" style={{height: '80px'}} />

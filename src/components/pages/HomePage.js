@@ -1,92 +1,85 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../../assets/Page.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import "../../assets/Page.css";
+
+import {
+  heroData,
+  expertiseData,
+  whyData,
+} from "../../data/accueil";
 
 function HomePage() {
   return (
     <>
       <div className="separation">
-        <header 
-          className="hero-section"
-          style={{backgroundImage: 'url(/plan-teia.png)'}}
-        >
-          <h1>Leader du Jumeau Numérique pour l'Enseignement</h1>
-          <img src="/logo.png" alt="DigYnov" className="header-logo" />
-          <p>
-            Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser 
-            la gestion, l'exploitation et la valorisation de vos actifs éducatifs.
-          </p>
+        <header className="hero-section">
+          <div className="header-title">
+            <h1>{heroData.title}</h1>
+          </div>
+
+          <p>{heroData.description}</p>
+
           <div className="cta-buttons">
-            <Link to="/contact" className="btn btn-primary">
-              Démarrer un projet →
-            </Link>
-            <Link to="/realisations" className="btn btn-secondary">
-              Voir nos réalisations
-            </Link>
+            {heroData.cta.map((btn) => (
+              <Link
+                key={btn.id}
+                to={btn.to}
+                className={`btn ${
+                  btn.primary ? "btn-primary" : "btn-secondary"
+                }`}
+              >
+                {btn.label}
+              </Link>
+            ))}
           </div>
         </header>
       </div>
 
-        <section className="page-section bg-light">
-        <h2 className="section-title">Notre Expertise</h2>
-        <p className="section-subtitle">
-          Des solutions complètes pour créer, gérer et exploiter vos jumeaux numériques
-        </p>
-
-        <div className="cards-grid">
-          <div className="info-card">
-            <h3>🏗️ Modélisation 3D</h3>
-            <p>
-              Création de maquettes numériques précises et détaillées de vos bâtiments 
-              avec une attention particulière aux détails architecturaux.
-            </p>
-          </div>
-
-          <div className="info-card">
-            <h3>📊 Collecte de Données</h3>
-            <p>
-              Récupération et inventaire exhaustif des équipements, systèmes et 
-              infrastructures pour une base de données complète.
-            </p>
-          </div>
-
-          <div className="info-card">
-            <h3>🔄 Hyperviseur TEIA</h3>
-            <p>
-              Gestion centralisée de vos jumeaux numériques avec intégration 
-              des systèmes de données en temps réel.
-            </p>
-          </div>
+      <Container fluid className="page-section bg-light">
+        <div className="text-center mb-5">
+          <h2 className="section-title">{expertiseData.title}</h2>
+          <p className="section-subtitle">{expertiseData.subtitle}</p>
         </div>
-      </section>
 
-      <section className="page-section">
-        <h2 className="section-title">Pourquoi Choisir DigYnov ?</h2>
-        
+        <Row>
+          <Col md={4}>
+            <div className="cards-grid">
+              {expertiseData.cards.map((card) => (
+                <div key={card.id} className="info-card">
+                  <h3>
+                    {card.icon} {card.title}
+                  </h3>
+                  <p>{card.description}</p>
+                </div>
+              ))}
+            </div>
+          </Col>
+
+
+          <Col md={6}>
+            <h3>{expertiseData.leftText.title}</h3>
+            <p>{expertiseData.leftText.description}</p>
+          </Col>
+
+
+        </Row>
+      </Container>
+
+      <section className="page-section no-padding-bottom">
+        <div className="text-center mb-5">
+          <h2 className="section-title">{whyData.title}</h2>
+        </div>
+
         <div className="cards-grid">
-          <div className="info-card">
-            <h3>🎓 Expertise Académique</h3>
-            <p>
-              Projet porté par des étudiants passionnés en partenariat avec Ynov Lille, 
-              alliant innovation et rigueur académique.
-            </p>
-          </div>
-
-          <div className="info-card">
-            <h3>🚀 Innovation Continue</h3>
-            <p>
-              Un projet évolutif conçu pour se développer au-delà du cadre scolaire, 
-              avec une vision à long terme.
-            </p>
-          </div>
-
-          <div className="info-card">
-            <h3>🤝 Accompagnement Personnalisé</h3>
-            <p>
-              Une équipe dédiée et polyvalente capable de s'adapter à vos besoins 
-              spécifiques et contraintes.
-            </p>
-          </div>
+          {whyData.cards.map((card) => (
+            <div key={card.id} className="info-card">
+              <h3>
+                {card.icon} {card.title}
+              </h3>
+              <p>{card.description}</p>
+            </div>
+          ))}
         </div>
       </section>
     </>
