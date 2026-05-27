@@ -79,3 +79,63 @@ background: linear-gradient(
     font-size: 1.1rem;
   }
 }
+
+.realisation-list {
+  list-style: disc;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.realisation-list li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.realisation-list li:hover {
+  color: #007bff;
+}
+
+.realisation-list li.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.realisation-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.realisation-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.realisation-row img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.realisation-row p {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .realisation-row,
+  .realisation-row.reverse {
+    flex-direction: column;
+  }
+
+  .realisation-row img,
+  .realisation-row p {
+    width: 100%;
+  }
+
+  .realisation-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

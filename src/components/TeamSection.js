@@ -27,13 +27,13 @@ export default function TeamSection() {
                     id: 3,
                     name: 'Thibault',
                     image: '/team/thibault.png',
-                    description: 'Responsable TEIA'
+                    description: 'intégrateur jumeaux numériques'
                 },
                 {
                     id: 4,
                     name: 'Younesse',
                     image: '/team/youness.png',
-                    description: 'Responsable Jumeau Numérique.'
+                    description: 'intégrateur jumeaux numériques'
                 }
             ]
         },
@@ -44,13 +44,13 @@ export default function TeamSection() {
                     id: 5,
                     name: 'Mehdi',
                     image: '/team/mehdi.png',
-                    description: 'Récupération des données.'
+                    description: 'Responsable data'
                 },
                 {
                     id: 6,
                     name: 'Jean-Mathurin',
                     image: '/team/jean-mathurin.png',
-                    description: 'Inventaire des équipements'
+                    description: 'Data analyste'
                 }
             ]
         },
@@ -61,21 +61,20 @@ export default function TeamSection() {
                     id: 7,
                     name: 'Tancelin',
                     image: '/team/tancelin.png',
-                    description: 'Création du site vitrine'
+                    description: 'Developpeur web full stack'
                 },
                 {
                     id: 8,
                     name: 'Morgan',
                     image: '/team/morgan.png',
-                    description: 'Dev fonctionalité & api'
-                }
+                    description: 'Developpeur web full stack'
+              }
             ]
         }
     ];
 
     return (
         <div className="team-container no-padding-bottom">
-            <h1>Notre Équipe</h1>
             <div className="team-sections">
                 {teamData.map((section, sectionIndex) => (
                     <div key={sectionIndex} className="team-section">

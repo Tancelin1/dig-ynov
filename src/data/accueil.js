@@ -3,7 +3,7 @@ export const heroData = {
   description:
     "Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser la gestion, l'exploitation et la valorisation de vos actifs éducatifs.",
   cta: [
-    { id: 1, label: "Démarrer un projet →", to: "contact/", primary: true },
+    { id: 1, label: "Démarrer un projet", to: "contact/", primary: true },
     { id: 2, label: "Voir nos réalisations", to: "/realisations", primary: false },
   ],
 };
@@ -43,7 +43,7 @@ export const expertiseData = {
     }, {
       id: 4,
       icon: "🔄",
-      title: "Hyperviseur TEIA",
+      title: "Hyperviseur BIM",
       description:
         "Gestion centralisée de vos jumeaux numériques avec intégration des systèmes de données en temps réel.",
     },
