@@ -27,13 +27,13 @@ export default function TeamSection() {
                     id: 3,
                     name: 'Thibaut',
                     image: '/team/thibault.png',
-                    description: 'intégrateur jumeaux numériques'
+                    description: 'Responsable jumeaux numériques'
                 },
                 {
                     id: 4,
                     name: 'Younesse',
                     image: '/team/youness.png',
-                    description: 'intégrateur jumeaux numériques'
+                    description: 'Intégrateur jumeaux numériques'
                 }
             ]
         },

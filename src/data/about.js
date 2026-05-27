@@ -8,10 +8,10 @@ const aboutData = {
     title: "Notre Mission",
 
     subtitle:
-      "Démocratiser l'accès aux jumeaux numériques pour les établissements d'enseignement",
+      "Démocratiser l'accès aux jumeaux numériques pour les patrimoines immobiliers de grande échelle",
 
     description:
-      "DigYnov est né d'un projet étudiant à Ynov Lille avec une ambition claire : rendre les technologies de jumeaux numériques accessibles aux établissements d'enseignement. Notre équipe pluridisciplinaire combine expertise technique, créativité et passion pour créer des solutions innovantes et sur mesure.",
+      "DigYnov est né d'un projet étudiant à Ynov Lille avec une ambition claire : rendre les technologies de jumeaux numériques accessibles à Ynov Campus. Notre équipe pluridisciplinaire combine expertise technique, créativité et passion pour créer des solutions innovantes et sur mesure.",
   },
 
   values: {
@@ -42,7 +42,7 @@ const aboutData = {
         title: "Innovation",
 
         description:
-          "Nous restons à la pointe des technologies et explorons constamment de nouvelles solutions pour améliorer nos services.",
+          "Nous restons à la pointe des technologies en explorant constamment de nouvelles solutions pour améliorer nos services.",
       },
 
       {
@@ -79,7 +79,7 @@ const aboutData = {
         title: "Stereograph",
 
         description:
-          "Stereograph nous soutient en fournissant des services de scan 3D et de modélisation pour nos projets de jumeaux numériques.",
+          "Stereograph nous mets à leur suite TEIA afin de pouvoir réaliser le jumeau numérique.",
       },
     ],
   },

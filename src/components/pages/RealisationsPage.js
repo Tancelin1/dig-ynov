@@ -20,42 +20,6 @@ const realisations = [
       }
     ]
   },
-  {
-    id: 2,
-    title: "Projet Industrie X",
-    sections: [
-      {
-        image: "/images/indus1.jpg",
-        text: "Digitalisation d’un site industriel..."
-      },
-      {
-        image: "/images/indus2.jpg",
-        text: "Optimisation des flux de production..."
-      },
-      {
-        image: "/images/indus3.jpg",
-        text: "Maintenance prédictive avancée..."
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: "Smart Building Y",
-    sections: [
-      {
-        image: "/images/build1.jpg",
-        text: "Création d’un bâtiment intelligent..."
-      },
-      {
-        image: "/images/build2.jpg",
-        text: "Capteurs IoT et monitoring..."
-      },
-      {
-        image: "/images/build3.jpg",
-        text: "Optimisation énergétique..."
-      }
-    ]
-  }
 ];
 
 function RealisationsPage() {
