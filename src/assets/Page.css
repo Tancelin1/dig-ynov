@@ -117,7 +117,9 @@
   color: #CEF8FA;
   font-weight: bold;
 }
-
+.info-card-special {
+  background-color: #9EC9C0 !important;
+}
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -265,4 +267,7 @@
   .cards-grid {
     grid-template-columns: 1fr;
   }
+  .cards-grid-3 {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
 }

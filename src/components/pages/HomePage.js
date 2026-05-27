@@ -21,12 +21,16 @@ function HomePage() {
           <p>{heroData.description}</p>
 
           <div className="cta-buttons">
-            {heroData.cta.map((btn) => (
+            {heroData.cta.map((btn, index) => (
               <Link
                 key={btn.id}
                 to={btn.to}
                 className={`btn ${
                   btn.primary ? "btn-primary" : "btn-secondary"
+                } ${
+                  (index + 1) % 4 === 0
+                    ? "info-card-special"
+                    : ""
                 }`}
               >
                 {btn.label}
@@ -45,8 +49,15 @@ function HomePage() {
         <Row>
           <Col md={4}>
             <div className="cards-grid">
-              {expertiseData.cards.map((card) => (
-                <div key={card.id} className="info-card">
+              {expertiseData.cards.map((card, index) => (
+                <div
+                  key={card.id}
+                  className={`info-card ${
+                    (index + 1) % 4 === 0
+                      ? "info-card-special"
+                      : ""
+                  }`}
+                >
                   <h3>
                     {card.icon} {card.title}
                   </h3>
@@ -56,13 +67,10 @@ function HomePage() {
             </div>
           </Col>
 
-
           <Col md={6}>
             <h3>{expertiseData.leftText.title}</h3>
             <p>{expertiseData.leftText.description}</p>
           </Col>
-
-
         </Row>
       </Container>
 
@@ -71,16 +79,20 @@ function HomePage() {
           <h2 className="section-title">{whyData.title}</h2>
         </div>
 
-        <div className="cards-grid">
-          {whyData.cards.map((card) => (
-            <div key={card.id} className="info-card">
-              <h3>
-                {card.icon} {card.title}
-              </h3>
-              <p>{card.description}</p>
-            </div>
-          ))}
-        </div>
+       <div className="cards-grid cards-grid-3">
+  {whyData.cards.map((card) => (
+    <div
+      key={card.id}
+      className="info-card"
+    >
+      <h3>
+        {card.icon} {card.title}
+      </h3>
+
+      <p>{card.description}</p>
+    </div>
+  ))}
+</div>
       </section>
     </>
   );

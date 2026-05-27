@@ -51,7 +51,6 @@ function ServicesPage() {
               centralisée de vos actifs numériques avec supervision en temps réel.
             </p>
             <ul>
-              <li>Configuration TEIA Suite</li>
               <li>Intégration IoT et capteurs</li>
               <li>Monitoring temps réel</li>
               <li>Reporting automatisé</li>
