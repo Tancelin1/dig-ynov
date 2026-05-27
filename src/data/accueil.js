@@ -1,7 +1,7 @@
 export const heroData = {
   title: "Leader du Jumeau Numérique pour l'Enseignement",
   description:
-    "Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser la gestion, l'exploitation et la valorisation de vos actifs éducatifs.",
+    "Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser la gestion, l'exploitation et la valorisation de vos actifs immobiliers.",
   cta: [
     { id: 1, label: "Démarrer un projet", to: "contact/", primary: true },
     { id: 2, label: "Voir nos réalisations", to: "/realisations", primary: false },
@@ -25,7 +25,7 @@ export const expertiseData = {
       icon: "🏗️",
       title: "Modélisation 3D",
       description:
-        "Création de maquettes numériques précises et détaillées de vos bâtiments avec une attention particulière aux détails architecturaux.",
+        "Création de maquettes numériques précises et détaillées de vos bâtiments avec une attention particulière aux détails architecturaux et techniques.",
     },
     {
       id: 2,
@@ -37,9 +37,9 @@ export const expertiseData = {
     {
       id: 3,
       icon: "🔄",
-      title: "Suivi continue",
+      title: "Suivi continu",
       description:
-        "Gestion centralisée de vos jumeaux numériques avec intégration des systèmes de données en temps réel.",
+        "Mise à jour du jumeau numérique en fonction du bâti existant et des travaux qui y sont apportés.",
     }, {
       id: 4,
       icon: "🔄",

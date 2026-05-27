@@ -23,7 +23,6 @@ function ServicesPage() {
               tous les éléments architecturaux, structurels et techniques.
             </p>
             <ul>
-              <li>Scan 3D et photogrammétrie</li>
               <li>Modélisation BIM complète</li>
               <li>Intégration des données techniques</li>
               <li>Export multi-formats</li>

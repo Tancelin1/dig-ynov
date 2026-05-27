@@ -25,7 +25,7 @@ export default function TeamSection() {
             members: [
                 {
                     id: 3,
-                    name: 'Thibault',
+                    name: 'Thibaut',
                     image: '/team/thibault.png',
                     description: 'intégrateur jumeaux numériques'
                 },

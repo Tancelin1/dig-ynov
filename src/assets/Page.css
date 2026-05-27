@@ -86,7 +86,7 @@
 }
 
 .info-card h3 {
-  color: #CEF8FA;
+  color: #278e8b;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -114,7 +114,7 @@
   content: '✓';
   position: absolute;
   left: 0;
-  color: #CEF8FA;
+  color: #278e8b;
   font-weight: bold;
 }
 .info-card-special {
@@ -198,7 +198,7 @@
 }
 
 .contact-info-card a {
-  color: #CEF8FA;
+  color: #278e8b;
   text-decoration: none;
   font-size: 1.1rem;
   transition: color 0.3s;
@@ -243,7 +243,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #CEF8FA;
+  border-color: #278e8b;
 }
 
 .form-group textarea {
@@ -268,6 +268,6 @@
     grid-template-columns: 1fr;
   }
   .cards-grid-3 {
-  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important  ;
 }
 }
