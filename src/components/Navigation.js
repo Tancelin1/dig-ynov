@@ -25,81 +25,14 @@ function Navigation() {
 
         {/* MENU */}
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
-  <li>
-    <a
-      href="/"
-      rel="noopener noreferrer"
-      className={
-        isActive('/')
-          ? 'active'
-          : ''
-      }
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      Accueil
-    </a>
-  </li>
-
-  <li>
-    <Link
-      to="/ticketing/"
-      className={isActive('/ticketing/') ? 'active' : ''}
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      Ticketing
-    </Link>
-  </li>
-
-  <li>
-    <Link
-      to="/services/"
-      className={isActive('/services/') ? 'active' : ''}
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      Services
-    </Link>
-  </li>
-
-  <li>
-    <Link
-      to="/realisations/"
-      className={isActive('/realisations/') ? 'active' : ''}
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      Réalisations
-    </Link>
-  </li>
-
-  <li>
-    <Link
-      to="/equipe/"
-      className={isActive('/equipe/') ? 'active' : ''}
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      Notre Équipe
-    </Link>
-  </li>
-
-  <li>
-    <Link
-      to="/a-propos/"
-      className={isActive('/a-propos/') ? 'active' : ''}
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      À Propos
-    </Link>
-  </li>
-
-  <li>
-    <Link
-      to="/contact/"
-      className={isActive('/contact/') ? 'active' : ''}
-      onClick={() => setMobileMenuOpen(false)}
-    >
-      Contact
-    </Link>
-  </li>
-</ul>
+          <li><Link to="/" className={isActive('/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Accueil</Link></li>
+          {/* <li><Link to="/ticketing/" className={isActive('/ticketing/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Ticketing</Link></li> */}
+          <li><Link to="/services/" className={isActive('/services/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Services</Link></li>
+          <li><Link to="/realisations/" className={isActive('/realisations/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Réalisations</Link></li>
+          <li><Link to="/equipe/" className={isActive('/equipe/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Notre Équipe</Link></li>
+          <li><Link to="/a-propos/" className={isActive('/a-propos/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>À Propos</Link></li>
+          <li><Link to="/contact/" className={isActive('/contact/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Contact</Link></li>
+        </ul>
 
         {/* HAMBURGER */}
         <button
