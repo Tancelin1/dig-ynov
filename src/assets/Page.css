@@ -20,7 +20,7 @@
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 1rem;
-  color: #1f2937;
+  color: #278e8b;
   font-weight: 700;
 }
 
@@ -118,6 +118,9 @@
   font-weight: bold;
 }
 .info-card-special {
+  h3 {
+    color: white;
+  }
   background-color: #9EC9C0 !important;
 }
 /* Buttons */
@@ -270,4 +273,5 @@
   .cards-grid-3 {
   grid-template-columns: repeat(3, 1fr) !important  ;
 }
+
 }

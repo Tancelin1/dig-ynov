@@ -7,15 +7,15 @@ const realisations = [
     title: "Campus Ynov Lille",
     sections: [
       {
-        image: "/images/ynov1.jpg",
+        image: "/projet1.0.png",
         text: "Présentation générale du projet Ynov à Croix..."
       },
       {
-        image: "/images/ynov2.jpg",
+        image: "/projet1.1.jpg",
         text: "Modélisation complète des espaces pédagogiques..."
       },
       {
-        image: "/images/ynov3.jpg",
+        image: "/projet1.2.png",
         text: "Gestion des équipements et maintenance..."
       }
     ]
@@ -36,7 +36,7 @@ function RealisationsPage() {
 
       <section className="page-section">
 
-        <ul className="realisation-list">
+        {/* <ul className="realisation-list">
           {realisations.map((proj) => (
             <li
               key={proj.id}
@@ -46,7 +46,7 @@ function RealisationsPage() {
               {proj.title}
             </li>
           ))}
-        </ul>
+        </ul> */}
 
         <h2 className="section-title">{selected.title}</h2>
 
