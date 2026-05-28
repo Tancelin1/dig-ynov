@@ -1,5 +1,5 @@
 export const heroData = {
-  title: "Leader du Jumeau Numérique pour l'Enseignement",
+  title: "Leader du Jumeau Numérique",
   description:
     "Nous créons des répliques numériques intelligentes de vos bâtiments pour optimiser la gestion, l'exploitation et la valorisation de vos actifs immobiliers.",
   cta: [
