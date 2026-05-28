@@ -25,7 +25,7 @@ function Navigation() {
 
         {/* MENU */}
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
-          <li><Link to="/" className={isActive('/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>POGNON</Link></li>
+          <li><Link to="/" className={isActive('/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Accueil</Link></li>
           <li><Link to="/services/" className={isActive('/services/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Services</Link></li>
           <li><Link to="/realisations/" className={isActive('/realisations/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Réalisations</Link></li>
           <li><Link to="/equipe/" className={isActive('/equipe/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Notre Équipe</Link></li>
