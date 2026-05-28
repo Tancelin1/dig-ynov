@@ -23,7 +23,7 @@ const realisations = [
 ];
 
 function RealisationsPage() {
-  const [selected, setSelected] = useState(realisations[0]);
+  const [selected] = useState(realisations[0]);
 
   return (
     <>
