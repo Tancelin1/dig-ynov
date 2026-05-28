@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../assets/Page.css";
+import emailjs from "@emailjs/browser";
 
 const staffDirectory = [
   {
@@ -211,6 +212,7 @@ const initialFormState = {
 function TicketingPage() {
   const [formData, setFormData] = useState(initialFormState);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSending, setIsSending] = useState(false);
 
   const activeService = useMemo(
     () =>
@@ -230,9 +232,31 @@ function TicketingPage() {
     setIsSubmitted(false);
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setIsSubmitted(true);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (isSending) return;
+
+    setIsSending(true);
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(() => {
+        setIsSubmitted(true);
+        e.target.reset();
+        setFormData(initialFormState);
+      })
+      .catch((err) => {
+        alert("Erreur lors de l'envoi : " + err.text);
+      })
+      .finally(() => {
+        setIsSending(false);
+      });
   };
 
   return (
@@ -368,8 +392,8 @@ function TicketingPage() {
                 />
               </div>
 
-              <button className="ticketing-submit" type="submit">
-                Envoyer
+              <button className="ticketing-submit" type="submit" disabled={isSending}>
+                {isSending ? "Envoi en cours..." : "Envoyer le message →"}
               </button>
             </div>
           </form>
@@ -417,7 +441,7 @@ function TicketingPage() {
             </div>
             {isSubmitted && (
               <div className="ticketing-email-status">
-                Email simule, il sera traite par {activeService.label}.
+                Email envoye avec succes, il sera traite par {activeService.label}.
               </div>
             )}
           </div>
@@ -440,12 +464,6 @@ function TicketingPage() {
           ) : (
             staffByService.map((member) => (
               <div className="staff-card" key={member.name}>
-                {/* <img
-                  src={`${staffPath}${member.image}.jpg`}
-                  alt={member.name}
-                  className="staff-img"
-                  loading="lazy"
-                /> */}
                 <span className="staff-name">{member.name}</span>
                 <span className="staff-role">{member.role}</span>
               </div>
