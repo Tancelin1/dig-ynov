@@ -2,8 +2,6 @@ import React, { useMemo, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../assets/Page.css";
 
-const staffPath = "/team/";
-
 const staffDirectory = [
   {
     name: "Directrice adjointe",
