@@ -9,7 +9,7 @@ function TeamPage() {
         <header 
           className="hero-section"
         >
-          <h1>Notre Équipe</h1>
+          {/* <h1>Notre Équipe</h1> */}
           <p>Des talents passionnés au service de vos projets</p>
         </header>
       </div>

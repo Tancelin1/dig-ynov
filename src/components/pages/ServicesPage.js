@@ -23,7 +23,6 @@ function ServicesPage() {
               tous les éléments architecturaux, structurels et techniques.
             </p>
             <ul>
-              <li>Scan 3D et photogrammétrie</li>
               <li>Modélisation BIM complète</li>
               <li>Intégration des données techniques</li>
               <li>Export multi-formats</li>
@@ -51,7 +50,6 @@ function ServicesPage() {
               centralisée de vos actifs numériques avec supervision en temps réel.
             </p>
             <ul>
-              <li>Configuration TEIA Suite</li>
               <li>Intégration IoT et capteurs</li>
               <li>Monitoring temps réel</li>
               <li>Reporting automatisé</li>
