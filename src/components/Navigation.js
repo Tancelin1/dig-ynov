@@ -32,6 +32,7 @@ function Navigation() {
           <li><Link to="/equipe/" className={isActive('/equipe/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Notre Équipe</Link></li>
           <li><Link to="/a-propos/" className={isActive('/a-propos/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>À Propos</Link></li>
           <li><Link to="/contact/" className={isActive('/contact/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Contact</Link></li>
+          <li style={{ display: "none" }}><Link to="/ticketing/" className={isActive('/ticketing/') ? 'active' : ''} onClick={() => setMobileMenuOpen(false)}>Ticketing</Link></li>
         </ul>
 
         {/* HAMBURGER */}
