@@ -97,7 +97,7 @@ function AboutPage() {
                 <img
                   src={partner.image}
                   alt={partner.alt}
-                  style={{ height: "80px" }}
+                  style={{ maxHeight: "80px", maxWidth: "150px" }}
                 />
 
                 <div style={{ textAlign: "left" }}>
