@@ -22,27 +22,27 @@ export const expertiseData = {
   cards: [
     {
       id: 1,
-      icon: "🏗️",
+      icon: 'fi fi-rs-model-cube-space',
       title: "Modélisation 3D",
       description:
         "Création de maquettes numériques précises et détaillées de vos bâtiments avec une attention particulière aux détails architecturaux et techniques.",
     },
     {
       id: 2,
-      icon: "📊",
+      icon: 'fi fi-rs-big-data-analytics',
       title: "Collecte de Données",
       description:
         "Récupération et inventaire exhaustif des équipements, systèmes et infrastructures pour une base de données complète.",
     },
     {
       id: 3,
-      icon: "🔄",
+      icon: 'fi fi-rs-user-headset',
       title: "Suivi continu",
       description:
         "Mise à jour du jumeau numérique en fonction du bâti existant et des travaux qui y sont apportés.",
     }, {
       id: 4,
-      icon: "🔄",
+      icon: 'fi fi-rs-building',
       title: "Hyperviseur BIM",
       description:
         "Gestion centralisée de vos jumeaux numériques avec intégration des systèmes de données en temps réel.",
@@ -54,21 +54,21 @@ export const whyData = {
   cards: [
     {
       id: 1,
-      icon: "🎓",
+      icon: 'fi fi-rs-school',
       title: "Expertise Académique",
       description:
         "Projet porté par des étudiants passionnés en partenariat avec Ynov Lille, alliant innovation et rigueur académique.",
     },
     {
       id: 2,
-      icon: "🚀",
+      icon: 'fi fi-rs-rocket',
       title: "Innovation Continue",
       description:
         "Un projet évolutif conçu pour se développer au-delà du cadre scolaire, avec une vision à long terme.",
     },
     {
       id: 3,
-      icon: "🤝",
+      icon: 'fi fi-rs-handshake',
       title: "Accompagnement Personnalisé",
       description:
         "Une équipe dédiée et polyvalente capable de s'adapter à vos besoins spécifiques et contraintes.",
