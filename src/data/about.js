@@ -20,7 +20,7 @@ const aboutData = {
     cards: [
       {
         id: 1,
-        icon: "🎯",
+        icon: "fi fi-rs-trophy",
         title: "Excellence",
 
         description:
@@ -29,7 +29,7 @@ const aboutData = {
 
       {
         id: 2,
-        icon: "🤝",
+        icon: "fi fi-rs-handshake",
         title: "Collaboration",
 
         description:
@@ -38,7 +38,7 @@ const aboutData = {
 
       {
         id: 3,
-        icon: "💡",
+        icon: "fi fi-rs-lightbulb-on",
         title: "Innovation",
 
         description:
@@ -47,7 +47,7 @@ const aboutData = {
 
       {
         id: 4,
-        icon: "🌱",
+        icon: "fi fi-rs-clock-five",
         title: "Pérennité",
 
         description:
