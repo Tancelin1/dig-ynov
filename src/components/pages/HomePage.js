@@ -79,7 +79,7 @@ function HomePage() {
           <h2 className="section-title">{whyData.title}</h2>
         </div>
 
-       <div className="cards-grid cards-grid-3">
+       <div className="cards-grid">
   {whyData.cards.map((card) => (
     <div
       key={card.id}
