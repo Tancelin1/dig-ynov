@@ -36,7 +36,7 @@ export const expertiseData = {
     },
     {
       id: 3,
-      icon: 'fi fi-rs-user-headset',
+      icon: 'fi fi-rs-blueprint',
       title: "Suivi continu",
       description:
         "Mise à jour du jumeau numérique en fonction du bâti existant et des travaux qui y sont apportés.",
@@ -68,7 +68,7 @@ export const whyData = {
     },
     {
       id: 3,
-      icon: 'fi fi-rs-handshake',
+      icon: 'fi fi-rs-user-headset',
       title: "Accompagnement Personnalisé",
       description:
         "Une équipe dédiée et polyvalente capable de s'adapter à vos besoins spécifiques et contraintes.",

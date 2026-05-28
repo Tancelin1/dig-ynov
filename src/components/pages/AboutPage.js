@@ -54,7 +54,7 @@ function AboutPage() {
               }`}
             >
               <h3>
-                {card.icon} {card.title}
+                <i className={card.icon}></i> {card.title}
               </h3>
 
               <p>{card.description}</p>
